@@ -20,9 +20,9 @@ Welcome = ttk.Label(frame, text="Welcome To", font=("Arial", 16),padding=(3,6))
 ProName = ttk.Label(frame, text="Shamardan", font=("Arial", 22, "bold"), padding=(12, 6) )
 Welcome.configure(foreground="#00d7ff")
 ProName.configure(foreground="#ffffff",background='#00d7ff')
-DecisionTree = ttk.Button(frame,text="Decision Tree",padding=10)
-SVM = ttk.Button(frame,text="Support Vector Machine",padding=10)
-NN = ttk.Button(frame,text="Neural Network",padding=10)
+DecisionTree = ttk.Button(frame,text="Decision Tree",padding=10,command=placeholder)
+SVM = ttk.Button(frame,text="Support Vector Machine",padding=10,command=placeholder)
+NN = ttk.Button(frame,text="Neural Network",padding=10,command=placeholder)
 password_label = ttk.Label(frame, text="Password")
 
 
